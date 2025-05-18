@@ -46,3 +46,31 @@ Os serviços de nuvem tem, como carecterística, serem escaláveis e flexíveis,
 
  CapEx é indicado para empresas que tem uma exigencia orçamentária, ou seja, aquelas que possuem uma demanda que os recursos de uma nuvem pública não podem atender e possuem recursos para implementar seus próprios serviços
  OpEx está relacionada aos custos operacionais do uso das nuvens públicas, indicado para empresas que possuem alta demanda e não possuem capital para implementação de uma nuvem privada.
+
+# Benefícios da Nuvem
+
+## Alta Disponibilidade
+Os recursos em nuvem são flexíveis e escaláveis, sendo garantido sua disponibilidade mesmo em casos de interrupção da funcionalidade por qualquer motivo.
+Essa disponibilidade é garantida por meio de um contrato de SLA, onde é previsto o tempo mínimo de interrupção que o sistema pode apresentar. Caso o sistema ou recurso fique indisponível por um período maior que o previsto pelo contrato, o proprietario da nuvem oferece créditos para compensar o usuario lesado.
+
+## Escalabilidade
+A nuvem permite a adição de recursos adicionais para aumentar o desempenho da aplicação em momentos de grande acesso, sendo pagos apenas pelo período em que forem usados. O usuario pode remover esses recursos quando não forem mais necessários sem nenhum onus adicional.
+
+## Elasticidade
+É a capacidade dos recursos serem aumentados ou diminuidos diante da demanda, sendo feita de maneira manual ou automática.
+
+## Confiabilidade
+Os recursos de grandes nuvens, com a Azure, são internacionalmente descentralizados, isso significa que os recursos de uma determinada região ficam concentrados nos datacenters localizados na mesma região.
+Isso permite a resiliencia de sistemas, que nada mais é do que acionar os recursos de outro datacenter mais próximo quando os recursos do datacenter atual forem comprometidos (com uma inundação ou terremoto, por exemplo). Isso garante que os recursos estejam sempre disponíveis para o usuario, mesmo em momentos adversos.
+
+## Previsibilidade
+Permite o avanço nos processos e no sistema com segurança no desempenho e no custo. A Azure fornece uma calculadora que permite analisar o custo gerado quando um recursos for usado ou ampliado.
+
+## Segurança
+A nuvem oferece diversas ferramentas de segurança contra ações mal intensionadas e as disponibiliza aos usuarios, contudo, as empresas gerenciadoras da nuvem não se comprometem com a aplicação dessas ferramentas, sendo de responsabilidade do usuario contratar e gerenciar o uso dos recursos de segurnaça.
+
+## Governança
+São padrões e normas usados para gerenciar os recursos da nuvem, garantindo a confiabilidade e a segurança do uso desses recursos.
+
+## Gerenciabilidade
+São as formas de gerenciar os recursos e suas implantações. No Azure, isso pode ser feito via protal do Azure, onde é possível criar, implantar e gerenciar recursos de maneira fácil e intuitiva. Contudo, também é possivel criar e gerenciar recursos via linha de comando.
